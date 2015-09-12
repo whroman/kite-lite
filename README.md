@@ -21,4 +21,5 @@ Please think about:
 
 ## Other thoughts
 - (***) Having a hit counter is __very__ 90's. I don't think we should have this on the site.
+  - Edit: Maybe you meant an analytics tracker? Either way, analytics are very easy to set up and also very valuable, so I'm definitely doing it.
 - (***) What does your timeframe look like? There's not much for me to do at this point until the parts I've mentioned above are done.
