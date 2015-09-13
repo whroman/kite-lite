@@ -1,0 +1,29 @@
+{
+  "name": "kite-lite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "python2.7 -m SimpleHTTPServer 5000",
+    "start": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/whroman/kite-lite.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/whroman/kite-lite/issues"
+  },
+  "homepage": "https://github.com/whroman/kite-lite#readme",
+  "dependencies": {
+    "foundation": "4.2.1-1"
+  },
+  "devDependencies": {
+    "gulp": "3.9.0",
+    "gulp-ejs": "1.2.0",
+    "gulp-load-plugins": "1.0.0-rc.1",
+    "gulp-ruby-sass": "2.0.2",
+    "gulp-sourcemaps": "^1.5.2"
+  }
+}
