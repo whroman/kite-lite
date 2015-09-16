@@ -1,4 +1,4 @@
-# kite-lite
+# [kite-lite](http://whroman.github.io/kite-lite/)
 
 (***) - Highest priority
 
@@ -22,7 +22,7 @@ Please think about:
 - (**) How much content you would like in which sections (i.e. a few paragraphs, a couple sentences, some bullet points, etc)
 - A: There is only one section (page) we're imagining.  The layout is at your discretion.  Company name: Kite Lite // Motto: Kiting at night with style.  //  Follow us on Facebook for the latest. 
 
-  > I'm just the developer here, but I think we need more content than just this. What is it? How/when/where can I get one?
+  > I'm just the developer here, but I think we need more content than just this. What is it? How/when/where can I get one? Take a look at the live site. Everything that has been requested as content has been allocated space there, but we are still missing quite a bit of information, me thinks.
 
 - (*) What the written content will actually be.
 - A: What you see in the previous and next answers.
