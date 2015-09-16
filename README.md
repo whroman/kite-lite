@@ -22,11 +22,15 @@ Please think about:
 - (**) How much content you would like in which sections (i.e. a few paragraphs, a couple sentences, some bullet points, etc)
 - A: There is only one section (page) we're imagining.  The layout is at your discretion.  Company name: Kite Lite // Motto: Kiting at night with style.  //  Follow us on Facebook for the latest. 
 
+  > I'm just the developer here, but I think we need more content than just this. What is it? How/when/where can I get one?
+
 - (*) What the written content will actually be.
 - A: What you see in the previous and next answers.
 
 - (***) The contact information that you want to display
 - A: info@kite-lite.com (we need to set this up), a link to a facebook page. 
+
+  > Let me know when both of these have been set up. Have you set up custom domain emails before?
 
 - (***) High quality picture(s)  
 - A: This is what we have for now - https://www.dropbox.com/sh/zx3f9sujo87fapa/AACu6KkPfn8rHCf24-qK64VXa?dl=0
@@ -36,9 +40,21 @@ Please think about:
   - Edit: Maybe you meant an analytics tracker? Either way, analytics are very easy to set up and also very valuable, so I'm definitely doing it.
   - A: yes, we meant an analytics tracker, not a forward-facing hit-counter.  Agreed about that being 90's. 
 
+  > This will be set up once the domain and site are hooked up.
+
 - (***) What does your timeframe look like? There's not much for me to do at this point until the parts I've mentioned above are done.
 - A: We're hoping to make a little splash in the community here and measure it in about 2 weeks.  Between now and then, we have to upload pictures of our forthcoming Wing Lite (the next product).  
 
 ## Questions from Mike & Kim
-- (***) Do you think our budget of $500 will get us to where we want to be?  And how would you like to be paid?  
-- (***) I have bought the domain (kite-lite.com) through hostgator, but have not yet bought hosting services.  Should we use hostgator for hosting, or would you like to use someone else?  If someone else is your preference, perhaps I should buy those services and provide you access to the controls so I can manage the billing going forward?  Let me know what you think is best here, and I'll get right on it.  
+- (***) Do you think our budget of $500 will get us to where we want to be?  And how would you like to be paid?
+
+  > Yeah, that will be more than enough if we introduce some constraints. For example, Github offers free hosting, so unless you two want to have a CMS so that you two can create and design all of your content through an editor, we can just keep everything on Github. Taking the GH route, copy changes would require one of you to:
+  1) Edit the HTML yourself and hope it looks good on the site since you would not be able to preview.
+  2) Ask me to edit the copy.
+  3) I can guide you through installation this repository on your Windows as best as I can, which would allow you to view the changes before making them appear on the site.
+
+  > Pay me for... my services?
+
+- (***) I have bought the domain (kite-lite.com) through hostgator, but have not yet bought hosting services.  Should we use hostgator for hosting, or would you like to use someone else?  If someone else is your preference, perhaps I should buy those services and provide you access to the controls so I can manage the billing going forward?  Let me know what you think is best here, and I'll get right on it.
+
+  > I guess I already answered this. I think GH hosting is a great solution for sites that are light on content. Cristina and I have hosted tons of stuff for free through GH, including walterroman.com and http://whroman.github.io/minesweeper-react.
