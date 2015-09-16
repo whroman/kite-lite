@@ -1,0 +1,24 @@
+#contact-icons {
+  font-size: 30px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  @extend .text-white;
+
+  .icon {
+    @extend .fa-stack;
+
+    .fa-stack-1x {
+      @extend .text-dark;
+    }
+  }
+
+  .icon:hover {
+    .fa-stack-1x {
+      @extend .text-white;
+    }
+
+    .fa-stack-2x {
+      @extend .text-dark;
+    }
+  }
+}
