@@ -1,0 +1,22 @@
+$dark: #444;
+
+.text-white {
+  color: #fff;
+}
+
+.text-dark {
+  color: $dark;
+}
+
+.border-dark {
+  border: 1px solid $dark;
+}
+
+.border-top-none {
+  border-top: none;
+}
+
+.text-thin {
+  font-weight: 100;
+  letter-spacing: 0.06em;
+}

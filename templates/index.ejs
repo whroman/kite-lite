@@ -5,18 +5,48 @@
 >
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Dosis:300' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="resources/build/index.css">
   </head>
 
-  <body style="height: 100%; width:100%;">
-    <div class="container">
-      <div class="row">
-        <div class="small-6 column">
-          <h1 ><%= header %></h1>
+  <body>
+    <div class="row">
+      <div class="small-12 column">
+        <div class="text-center">
+          <h1 id="page-title">Kite Lite</h1>
           <hr>
-          <h3 class="text-thin">Kite at night with Kite Lite</h3>
+          <div id="contact-icons">
+            <a href="#" class="icon">
+              <i class="fa fa-fw fa-stack-2x fa-circle"></i>
+              <i class="fa fa-fw fa-stack-1x fa-envelope-o"></i>
+            </a>
+            <span>&nbsp;</span>
+            <a href="#" class="icon">
+              <i class="fa fa-fw fa-stack-2x fa-circle"></i>
+              <i class="fa fa-fw fa-stack-1x fa-facebook"></i>
+            </a>
+          </div>
         </div>
       </div>
+
+
+      <div class="small-12 column">
+        <div class="relative">
+          <img class="border-dark" src="/resources/images/mike-at-sea-thin.jpg">
+          <div class="overlay show-for-medium-up">
+            <div class="overlay-content">
+              <h2 class="text-thin text-white">Kite at night<br>with style.</h2>
+            </div>
+          </div>
+          <div class="border-dark border-top-none width-full text-center show-for-small-only">
+            <br>
+            <h2 class="text-thin">Kite at night with style.</h2>
+            <br>
+          </div>
+        </div>
+      </div>
+
     </div>
+    <div id="bottom-gutter"></div>
   </body>
 </html>

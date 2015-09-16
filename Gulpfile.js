@@ -43,7 +43,7 @@ gulp.task('scss', function () {
 });
 
 gulp.task("server", function () {
-  var linter = process.spawn('python', ["-m", "SimpleHTTPServer", "5000"]);
+  var linter = process.spawn("npm", ["run", "server"]);
   linter.stdout.on('data', process.log);
   linter.stderr.on('data', process.log);
 });
