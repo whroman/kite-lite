@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "postinstall": "cp -R node_modules/font-awesome/fonts/ ./resources/fonts",
     "server": "python2.7 -m SimpleHTTPServer 5000",
     "start": "gulp"
   },
