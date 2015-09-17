@@ -42,6 +42,7 @@ Please think about:
 ## Other thoughts
 - (***) Having a hit counter is __very__ 90's. I don't think we should have this on the site.
   - Edit: Maybe you meant an analytics tracker? Either way, analytics are very easy to set up and also very valuable, so I'm definitely doing it.
+
   > yes, we meant an analytics tracker, not a forward-facing hit-counter.  Agreed about that being 90's. 
 
   >> This will be set up once the domain and site are hooked up.
