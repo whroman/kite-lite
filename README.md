@@ -23,6 +23,8 @@ Please think about:
 - M: There is only one section (page) we're imagining.  The layout is at your discretion.  Company name: Kite Lite // Motto: Kiting at night with style.  //  Follow us on Facebook for the latest. 
 
   > I'm just the developer here, but I think we need more content than just this. What is it? How/when/where can I get one? Take a look at the live site. Everything that has been requested as content has been allocated space there, but we are still missing quite a bit of information, me thinks.
+  
+  >> Truth is, we're not even sure we're making this a company yet.  This is our "test the waters" phase.  We plan to add pics for the Wing Lite also in the near-term, but we don't really want to promise things we can't even schedule yet.  We'll get there, but for now we are experimenting with revealing little but hinting at much.  
 
 - (*) What the written content will actually be.
 - M: What you see in the previous and next answers.
@@ -31,6 +33,8 @@ Please think about:
 - M: info@kite-lite.com (we need to set this up), a link to a facebook page. 
 
   > Let me know when both of these have been set up. Have you set up custom domain emails before?
+  
+  >> Maybe.  I did arrange for my last company to have a custom domain email, but that was packaged conveniently with Go-daddy hosting services, so I really didn't have to do much tinkering. 
 
 - (***) High quality picture(s)  
 - M: This is what we have for now - https://www.dropbox.com/sh/zx3f9sujo87fapa/AACu6KkPfn8rHCf24-qK64VXa?dl=0
