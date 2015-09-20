@@ -53,10 +53,14 @@ gulp.task("watch", function () {
   gulp.watch(paths.scss.watch, ['scss']);
 });
 
+gulp.task("build", [
+  "ejs",
+  "scss"
+]);
+
 gulp.task("dev", [
   "server",
-  "ejs",
-  "scss",
+  "build",
   "watch"
 ]);
 
