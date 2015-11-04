@@ -1,7 +1,5 @@
 #contact-icons {
   font-size: 30px;
-  margin-top: 20px;
-  margin-bottom: 30px;
   @extend .text-white;
 
   .icon {
@@ -20,5 +18,9 @@
     .fa-stack-2x {
       @extend .text-dark;
     }
+  }
+
+  .fa-envelope-o {
+    margin-top: -0.02em;
   }
 }
