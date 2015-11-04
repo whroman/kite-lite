@@ -1,15 +1,16 @@
-$dark: #444;
+$gray-dark: #444;
+$gray-md: #999;
 
 .text-white {
   color: #fff;
 }
 
 .text-dark {
-  color: $dark;
+  color: $gray-dark;
 }
 
 .border-dark {
-  border: 1px solid $dark;
+  border: 1px solid $gray-md;
 }
 
 .border-top-none {
