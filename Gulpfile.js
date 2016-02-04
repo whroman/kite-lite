@@ -14,8 +14,21 @@ var paths = {};
 paths.build = "./resources/build";
 
 paths.templates = {
-  src: "./templates/index.ejs",
-  watch: "./templates/**/*.ejs"
+  watch: "./templates/**/*.ejs",
+  pages: [
+    {
+      src: "./templates/pages/home.ejs",
+      dest: "./"
+    },
+    {
+      src: "./templates/pages/boardlight.ejs",
+      dest: "./boardlight"
+    },
+    {
+      src: "./templates/pages/about-us.ejs",
+      dest: "./about-us"
+    }
+  ]
 };
 
 paths.scss = {
@@ -27,11 +40,24 @@ paths.scss = {
   }
 };
 
-gulp.task("ejs", function() {
-  gulp.src(paths.templates.src)
-    .pipe(gp.ejs(data))
-    .pipe(gulp.dest("./"));
+var ejsTasks = [];
+
+paths.templates.pages.forEach(function (page) {
+  var taskName = "ejs:" + page.dest;
+
+  ejsTasks.push(taskName);
+
+  gulp.task(taskName, function() {
+    return gulp.src(page.src)
+      .pipe(gp.rename("index.html"))
+      .pipe(gp.ejs({dest: page.dest}, {
+        ext: ".html"
+      }).on('error', gp.util.log))
+      .pipe(gulp.dest(page.dest));
+  });
 });
+
+gulp.task("ejs", ejsTasks);
 
 gulp.task('scss', function () {
   return gp.rubySass(paths.scss.src, paths.scss.options)

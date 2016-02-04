@@ -1,6 +1,7 @@
 #contact-icons {
   font-size: 30px;
   @extend .text-white;
+  text-align: center;
 
   .icon {
     @extend .fa-stack;
@@ -10,15 +11,15 @@
     }
   }
 
-  .icon:hover {
-    .fa-stack-1x {
-      @extend .text-white;
-    }
+  // .icon:hover {
+  //   .fa-stack-1x {
+  //     @extend .text-white;
+  //   }
 
-    .fa-stack-2x {
-      @extend .text-dark;
-    }
-  }
+  //   .fa-stack-2x {
+  //     @extend .text-dark;
+  //   }
+  // }
 
   .fa-envelope-o {
     margin-top: -0.02em;

@@ -24,9 +24,11 @@
   },
   "devDependencies": {
     "gulp": "3.9.0",
-    "gulp-ejs": "1.2.0",
+    "gulp-ejs": "^2.0.0",
     "gulp-load-plugins": "1.0.0-rc.1",
+    "gulp-rename": "^1.2.2",
     "gulp-ruby-sass": "2.0.2",
-    "gulp-sourcemaps": "^1.5.2"
+    "gulp-sourcemaps": "^1.5.2",
+    "gulp-util": "^3.0.7"
   }
 }
