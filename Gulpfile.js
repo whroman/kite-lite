@@ -27,6 +27,10 @@ paths.templates = {
     {
       src: "./templates/pages/about-us.ejs",
       dest: "./about-us"
+    },
+    {
+      src: "./templates/pages/winglight.ejs",
+      dest: "./winglight"
     }
   ]
 };
