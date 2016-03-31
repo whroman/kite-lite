@@ -8,6 +8,7 @@ $fa-font-path: "./../fonts";
 @import "colors";
 @import "components/contact-icons";
 @import "components/overlay";
+@import "components/about-us-item";
 
 body {
   @extend .text-dark;
