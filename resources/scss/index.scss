@@ -81,6 +81,10 @@ tr {
   }
 
   input {
-    margin: 0;
+    margin: 8px 0 0 0;
+  }
+
+  #mc-embedded-subscribe {
+    background-color: $primary;
   }
 }
