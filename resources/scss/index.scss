@@ -26,6 +26,7 @@ a:hover, a.active {
 
 h2 {
   font-size: 25px;
+  color: #444;
 }
 
 h3 {
@@ -56,6 +57,13 @@ table {
 
 tr {
   vertical-align: baseline;
+}
+
+.contained-image {
+  height: 320px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
 }
 
 .about-me-role {
