@@ -60,10 +60,11 @@ tr {
 }
 
 .contained-image {
-  height: 320px;
-  width: 100%;
-  background-size: cover;
-  background-position: center;
+  height: 270px;
+  max-width: 100%;
+  width: auto;
+  display: inline-block;
+  margin: 16px;
 }
 
 .about-me-role {
